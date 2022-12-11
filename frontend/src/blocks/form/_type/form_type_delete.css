@@ -1,0 +1,14 @@
+.form_type_delete {
+    grid-template-areas:
+    ". . ."
+    ". title ."
+    ". button ."
+    ". . .";
+  grid-template-rows: 34px 61px 50px 36.51px;
+}
+
+@media (max-width: 769px) {
+    .form_type_delete {
+      grid-template-rows: 25px 61px 61px 25px;
+    }
+  }

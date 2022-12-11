@@ -1,0 +1,26 @@
+.form {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  max-width: 430px;
+  grid-area: form;
+  display: grid;
+  grid-template-areas:
+    ". . ."
+    ". title ."
+    ". fieldset ."
+    ". button ."
+    ". . .";
+  grid-template-rows: 34px 77px auto 50px 36.51px;
+  grid-template-columns: auto 358px auto;
+}
+
+@media (max-width: 769px) {
+  .form {
+    max-width: 282px;
+    align-self: baseline;
+    grid-template-rows: 25px 97px 1fr 61px 25px;
+    grid-template-columns: auto 238px auto;
+  }
+}

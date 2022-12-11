@@ -1,0 +1,15 @@
+.authentication {
+    display: flex;
+    flex-direction: column;
+    max-width: 358px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media (max-width: 360px) {
+    .authentication {
+        max-width: 260px;
+    }
+}

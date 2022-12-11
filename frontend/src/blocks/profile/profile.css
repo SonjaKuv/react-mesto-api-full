@@ -1,0 +1,19 @@
+.profile {
+  display: flex;
+  margin: 0 auto;
+  max-width: 880px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  padding-left: 15.625%;
+  padding-right: 15.625%;
+}
+
+@media (max-width: 959px) {
+  .profile {
+    flex-direction: column;
+    padding-top: 42px;
+    padding-left: 5.94%;
+    padding-right: 5.94%;
+    padding-bottom: 36px;
+  }
+}

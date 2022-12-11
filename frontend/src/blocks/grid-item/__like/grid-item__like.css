@@ -1,0 +1,14 @@
+.grid-item__like {
+  background-image: url("../../../images/like.svg");
+  background-color: #fff;
+  width: 22px;
+  height: 19px;
+  margin: 22px 0 3px 0;
+  grid-area: like;
+  justify-self: center;
+  transition: opacity 0.3s ease;
+}
+
+.grid-item__like:hover {
+  opacity: 0.5;
+}

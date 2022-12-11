@@ -1,0 +1,6 @@
+.grid-item__photo {
+  width: 282px;
+  height: 282px;
+  grid-area: photo;
+  cursor: pointer;
+}

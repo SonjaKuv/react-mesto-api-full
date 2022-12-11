@@ -1,0 +1,19 @@
+.grid-elements {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 282px);
+  margin: 0 auto;
+  max-width: 880px;
+  justify-content: center;
+  padding-left: 15.625%;
+  padding-right: 15.625%;
+  padding-bottom: 68px;
+  gap: 20px 17px;
+}
+
+@media (max-width: 500px) {
+  .grid-elements {
+    padding-left: 5.94%;
+    padding-right: 5.94%;
+    padding-bottom: 50px;
+  }
+}

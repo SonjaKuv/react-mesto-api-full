@@ -1,0 +1,10 @@
+.authentication__link {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;;
+}
+
+.authentication__link:hover {
+    opacity: 0.6;
+    }

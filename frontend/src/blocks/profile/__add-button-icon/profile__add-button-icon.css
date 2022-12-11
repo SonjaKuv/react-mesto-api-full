@@ -1,0 +1,14 @@
+.profile__add-button-icon {
+  margin: auto auto;
+  width: 22px;
+  height: 22px;
+  background-image: url(../../../images/Vector.svg);
+  background-size: cover;
+}
+
+@media (max-width: 959px) {
+  .profile__add-button-icon {
+    width: 16px;
+    height: 16px;
+  }
+}

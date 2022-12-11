@@ -1,0 +1,10 @@
+.grid-item__likes-number {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  grid-area: number;
+  margin: 0 0 22px;
+  justify-self: center;
+  color: #000;
+}

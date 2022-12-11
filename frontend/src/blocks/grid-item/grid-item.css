@@ -1,0 +1,16 @@
+.grid-item {
+  display: grid;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 282px;
+  max-height: 361px;
+  margin: 0 auto;
+  overflow: hidden;
+  grid-template-areas:
+    "photo photo"
+    "title like"
+    "title number";
+  position: relative;
+  grid-template-columns: 1fr 62px;
+  grid-template-rows: 282px 45px 35px;
+}
